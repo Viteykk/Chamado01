@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chamado.css">
+    <script src="script.js" defer></script>
+    <title>Abertura de Chamado</title>
+</head>
+<body>
+    <header>
+            <!-- Link para redirecionar o usuário ao clicar na imagem -->
+            <a href="https://www.chesiquimica.com.br">
+                <img id="logo" src="..//img///logo.png" alt="logo">
+            </a>
+        <nav>
+            <h1>Portal da T.I.</h1>
+            <p>
+                <button id="bchamado" onclick="window.location.href='../chamado/chamado.html'">Abrir um Chamado</button>
+                <button id="btonner" onclick="window.location.href='../tonner/tonner.html'">Solicitar Tonner</button>
+                <button id="binfo" onclick="window.location.href='../eqpinfo/informatica.html'">Equipamentos de Informática</button>
+        </nav>
+    </header>
+    <p>
+
+    <div class="container">
+        <h2>Abertura de Chamado</h2>
+        <form id="chamado">
+            <input type="hidden" id="data" name="data">
+            <input type="hidden" id="situacao" name="situacao" value="aberto">
+            <input type="hidden" id="ticket" name="ticket">
+            <div class="nome">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="nome" >
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" >
+            
+            </div>
+            <div class="setor">
+                <label for="setor">Setor:</label>
+                <select id="setor" name="setor" >
+                    <option value=""></option>
+                    <option value="Aerossol">Aerossol</option>
+                    <option value="Comercial">Comercial</option>
+                    <option value="Compras">Compras</option>
+                    <option value="Contabil">Contabilidade</option>
+                    <option value="Cosmetico">Cosmetico</option>
+                    <option value="Expedição">Expedição</option>
+                    <option value="Financeiro">Financeiro</option>
+                    <option value="Formulação">Formulação</option>
+                    <option value="Logistica Adm">Logistica</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="RH">RH</option>
+                    <option value="sac">SAC</option>
+                    <option value="Saneantes">Saneantes</option>
+                    <option value="TI">TI</option>
+                </select>
+            </div>
+            <div class="assunto">
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+            </div>
+            <div class="descricao">
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" rows="4" required></textarea>
+            </div>
+          
+            <div class="button-enviar">
+                <button id="enviar" type="submit">Abrir Chamado</button>
+            </div>
+        </form>
+        <div class="button-voltar">
+            <button id="voltar" onclick="window.location.href='../index.html'">Voltar</button>
+        </div>
+    </div>
+
+</body>
+</html>

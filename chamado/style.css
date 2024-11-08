@@ -1,0 +1,248 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* CHAMADO.HTML */
+h2 {
+    text-align: center;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/*Email */
+.email label {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.email input, .email textarea {
+    width: 37%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    margin-bottom: 15px;
+}
+
+
+.email textarea:focus,
+  .email select:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+
+/*Nome */
+.nome label{
+    font-weight: bold;
+}
+
+.nome {
+    margin-bottom: 15px;
+}
+
+.nome input, .nome textarea {
+    width: 37%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+}
+
+/*Setor*/
+.setor label{
+    font-weight: bold;
+}
+
+/*Assunto*/
+.assunto label{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*Descrição*/
+.descricao label{
+    font-weight: bold;
+}
+
+
+/*Select*/
+select {
+    width: 20%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+  }
+
+select{  
+    margin-bottom:15px ;
+}
+select label{
+    margin-bottom:15px ;
+}
+
+
+/*Assunto*/
+.assunto {
+    margin-bottom: 15px;
+}
+
+.assunto input, .nome textarea {
+    width: 40%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+}
+
+
+/*Descrição*/
+.descricao {
+    margin-bottom: 15px;
+}
+
+#descricao {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 11px;
+}
+
+
+/*Botão*/
+.button-enviar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#enviar {
+    background: linear-gradient(135deg, #1a8941, #1f7a2d);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-align: right;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+
+  button:active {
+    transform: translateY(1px);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+
+/*Botão Voltar*/
+#voltar {
+    background: linear-gradient(135deg, #1a8941, #1f7a2d);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  /* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do header */
+header {
+    display: block;  
+    align-items: center;
+    background-color: #9a9a9a;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Estilização do logo */
+header .logo img {
+    align-items: center;
+    height: 60px;
+}
+
+header h1{
+    margin-bottom: 5px;
+}
+
+/* Estilização do menu de navegação */
+header nav {
+    margin-left: 10px;
+}
+
+/* Estilização do botão de login */
+header .cta {
+    text-decoration: none;
+    color: white;
+    background-color: #f4a261;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#botau {
+    background: linear-gradient(135deg, #1a8941, #1f7a2d);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+#camaelao img {
+    width: 700px; /* Define a largura fixa da imagem */
+    height: 922; /* Define a altura fixa da imagem */
+}
+h3 {
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    margin: 0; /* Remove a margem padrão */
+}
+
+#logo{
+    width: 50px; /* Diminui a largura da imagem */
+    float: left; /* Move a imagem para a esquerda */
+    margin-right: 10px;
+    margin-left: 5px;
+}
